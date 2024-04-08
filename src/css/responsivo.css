@@ -1,0 +1,59 @@
+@media(max-width: 1280px) {
+    .home {
+        flex-direction: column;
+        align-items: center;
+        margin: 50px 0;
+        gap: 30px;
+    }
+
+    .home .informacoes {
+        max-width: 100%;
+        text-align: center;
+        align-items: center;
+    }
+
+    .projetos .conteiner-projetos {
+        padding: 0 30px;
+    }
+
+    cabecalho {
+        padding: 30px;
+    }
+}
+
+@media(max-width:425px) {
+    .home .informacoes h1 {
+        font-size: 30px;
+    }
+
+    .home .informacoes p {
+        font-size: 16px;
+    }
+
+    .home .conteiner-foto img {
+        max-width: 340px;
+        max-height: 340px;
+    }
+
+    .projetos {
+        padding: 30px;
+    }
+}
+
+@keyframes gradient-animation {
+
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+       background-position: 100% 50%;
+    }
+
+
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
